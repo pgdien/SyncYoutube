@@ -10,7 +10,7 @@
 	"localAdmins": true,
 	"templateUrl": "https://www.youtube.com/watch?v=D1eY4VjMLS4&t",
 	"youtubeApiKey": "AIzaSyDwjyhiM6LCIJDzQm0tnShF3eeY83mPois",
-	"youtubePlaylistLimit": 50,
+	"youtubePlaylistLimit": 500,
 	"permissions": {
 		"guest": ["writeChat", "addVideo", "removeVideo", "changeOrder", "requestLeader", "rewind"],
 		"user": ["guest"],
