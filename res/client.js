@@ -1112,6 +1112,7 @@ client_Main.prototype = {
 			_gthis.addVideoUrl(true);
 			return false;
 		});
+		
 		window.document.querySelector("#mediatitle").onkeydown = function(e) {
 			if(e.keyCode == 13) {
 				_gthis.addVideoUrl(true);
@@ -2417,7 +2418,7 @@ client_players_Iframe.prototype = {
 		} else {
 			callback({ duration : 0});
 		}
-	}
+	}   
 	,isValidIframe: function(iframe) {
 		if(iframe.children.length != 1) {
 			return false;
@@ -2429,7 +2430,7 @@ client_players_Iframe.prototype = {
 		}
 	}
 	,loadVideo: function(item) {
-		this.removeVideo();
+	//	this.removeVideo();
 		this.video = window.document.createElement("div");
 		this.video.id = "videoplayer";
 		this.video.innerHTML = item.url;
