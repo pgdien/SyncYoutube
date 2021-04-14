@@ -9,7 +9,7 @@
 	"requestLeaderOnPause": false,
 	"localAdmins": true,
 	"templateUrl": "https://www.youtube.com/watch?v=D1eY4VjMLS4&t",
-	"youtubeApiKey": "AIzaSyDTk1OPRI9cDkAK_BKsBcv10DQCHse-QaA",
+	"youtubeApiKey": "AIzaSyDwjyhiM6LCIJDzQm0tnShF3eeY83mPois",
 	"youtubePlaylistLimit": 50,
 	"permissions": {
 		"guest": ["writeChat", "addVideo", "removeVideo", "changeOrder", "requestLeader", "rewind"],
