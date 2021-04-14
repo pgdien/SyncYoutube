@@ -2,20 +2,6 @@
 Synchronized video viewing with chat and other features.
 Lightweight modern implementation and very easy way to run locally.
 
-Default channel example: http://synctube-example.herokuapp.com/
-
-### New features
-- Reworked layout and theme
-- Multi-Language support
-- Hotkeys (`Alt-P` for global play/pause, [etc](https://github.com/RblSb/SyncTube/blob/80ec4ba1747d22ec136a95d6b35ba6289e15e8ad/src/client/Buttons.hx#L254-L258))
-- Mobile view with page fullscreen
-- Way to play local videos for network users (without NAT loopback feature)
-- Playback rate synchronization (with leader)
-- `/30`, `/-21`, etc to rewind video playback in seconds
-- Links mask: `foo.com/bar${1-4}.mp4` to add multiple items
-- Override every front-end file you want (`user/res` folder)
-- [Native mobile client](https://github.com/RblSb/SyncTubeApp)
-
 ### Supported players
 - Youtube (videos, streams and playlists)
 - Raw mp4 videos and m3u8 playlists (or any other media format supported in browser)

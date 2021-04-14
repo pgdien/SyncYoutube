@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RblSb/SyncTube.git"
+    "url": "git+https://github.com/pgdien/SyncYoutube"
   },
-  "author": "RblSb",
+  "author": "pgdien",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RblSb/SyncTube/issues"
+    "url": "https://github.com/pgdien/SyncYoutube/issues"
   },
-  "homepage": "https://github.com/RblSb/SyncTube#readme",
+  "homepage": "https://github.com/pgdien/SyncYoutube#readme",
   "dependencies": {
     "ws": "^7.4.4"
   }
