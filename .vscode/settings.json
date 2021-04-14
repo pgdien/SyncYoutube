@@ -1,0 +1,10 @@
+{
+	"haxe.configurations": [
+			["build-server.hxml"]
+	],
+	"search.exclude": {
+		"build": true,
+		"res/temp": true,
+		"res/client.js": true
+	}
+}
