@@ -425,10 +425,10 @@ VideoList.addItem = function(this1,item,atEnd,itemPos) {
 };
 VideoList.setNextItem = function(this1,pos,itemPos) {
 	var next = this1[pos];
-	HxOverrides.remove(this1,next);
-	if(pos < itemPos) {
-		--itemPos;
-	}
+	//HxOverrides.remove(this1,next);
+	// if(pos < itemPos) {
+	// 	--itemPos;
+	// }
 	this1.splice(itemPos + 1,0,next);
 	return itemPos;
 };
