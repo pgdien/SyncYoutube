@@ -36,6 +36,8 @@ Client.prototype = {
 		return flag;
 	}
 };
+
+
 var ClientTools = function() { };
 ClientTools.__name__ = true;
 ClientTools.setLeader = function(clients,name) {

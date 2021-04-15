@@ -4,7 +4,7 @@
   "description": "Synchronized video viewing with chat and other features",
   "main": "build/server.js",
   "scripts": {
-    "start": "node build/server.js"
+    "start": "nodemon build/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/pgdien/SyncYoutube#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "ws": "^7.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }

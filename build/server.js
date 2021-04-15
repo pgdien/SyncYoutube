@@ -123,7 +123,7 @@ DateTools.__format_get = function(d,e) {
 	case "H":case "k":
 		return StringTools.lpad(Std.string(d.getHours()),e == "H" ? "0" : " ",2);
 	case "m":
-		return StringTools.lpad(Std.string(d.getMonth() + 1),"0",2);
+		return StringTools.lpad(Std.string(d.getMonth() + 1),"0",2);  
 	case "n":
 		return "\n";
 	case "p":
