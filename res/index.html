@@ -56,10 +56,12 @@
       <!-- Add video -->
       <div class="collapse" id="addfromurl" aria-expanded="false">
         <div class="display-flex">
-          <button id="insert_template" title="${addTemplateUrl}">
+          <button id="insert_template" title="${addTemplateUrl}" style="display: none;">
             <div>&gt;</div>
           </button>
           <input id="mediaurl" type="text" placeholder="${addVideoFromUrl}">
+          <button id="queue_next">${queueNext}</button>
+          <button id="queue_end">${queueLast}</button>
         </div>
         <div id="mediatitleblock" class="display-flex" style="display: none;">
           <input id="mediatitle" type="text" placeholder="${optionalTitle}">
@@ -67,13 +69,13 @@
         <div id="subsurlblock" class="display-flex" style="display: none;">
           <input id="subsurl" type="text" placeholder="${subtitlesUrlOptional}">
         </div>
-        <div>
+        <!-- <div>
           <button id="queue_next">${queueNext}</button>
           <button id="queue_end">${queueLast}</button>
-          <label>
-            <input class="add-temp" type="checkbox" checked="checked">${addAsTemporary}
-          </label>
-        </div>
+        </div> -->
+        <label style="display: none;">
+          <input class="add-temp" type="checkbox" checked="checked">${addAsTemporary}
+        </label>
       </div>
       <div class="collapse" id="customembed" aria-expanded="false">
         <input id="customembed-title" type="text" placeholder="${optionalTitle}">
