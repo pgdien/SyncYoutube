@@ -45,7 +45,7 @@
           <button class="collapsed" id="showmediaurl" title="${addVideoFromUrl}" data-toggle="collapse" data-target="#addfromurl" aria-expanded="false"><ion-icon name="add"></ion-icon></button>
           <button class="collapsed" id="showcustomembed" title="${embedCustomFrame}" data-toggle="collapse" data-target="#customembed" aria-expanded="false"><ion-icon name="code"></ion-icon></button>
           <button id="shuffleplaylist" title="${shufflePlaylist}"><ion-icon name="shuffle"></ion-icon></button>
-          <button id="clearplaylist" title="${clearPlaylist}"><ion-icon name="close"></ion-icon></button>
+          <button id="clearplaylist" title="${clearPlaylist}" style="display: none;"><ion-icon name="close"></ion-icon></button>
         </span>
       </div>
       <!-- Playlist metadata -->
@@ -83,7 +83,7 @@
         <div>
           <button id="ce_queue_next">${queueNext}</button>
           <button id="ce_queue_end">${queueLast}</button>
-          <label>
+          <label style="display: none;">
             <input class="add-temp" type="checkbox" checked="checked">${addAsTemporary}
           </label>
         </div>
