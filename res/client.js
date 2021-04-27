@@ -1312,12 +1312,12 @@ client_Main.prototype = {
 		case "ClearChat":
 			this.clearChat();
 			break;
-		// case "ClearPlaylist":
-		// 	this.player.clearItems();
-		// 	if(this.player.isListEmpty()) {
-		// 		this.player.pause();
-		// 	}
-		// 	break;
+		case "ClearPlaylist":
+			this.player.clearItems();
+			if(this.player.isListEmpty()) {
+				this.player.pause();
+			}
+			break;
 		case "Connected":
 			this.onConnected(data);
 			this.onTimeGet.run();

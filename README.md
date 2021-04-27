@@ -44,8 +44,3 @@ It's just works, but you can also check [user/ folder](/user/README.md) for serv
 - `haxelib install all` to install extern libs
 - If you skipped `Setup` section before: `npm ci`
 - Open project in VSCode and press `F5` for client+server build and run
-
-### About
-- Layout and design by [Austin Riddell](https://github.com/aus-tin)
-- [Original idea](https://github.com/calzoneman/sync) by Calvin Montgomery
-- Default emotes by [emlan](https://www.deviantart.com/emlan)
