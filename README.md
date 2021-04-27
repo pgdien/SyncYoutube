@@ -10,7 +10,8 @@ Lightweight modern implementation and very easy way to run locally.
 ### Setup
 - Open `4200` port in your router settings (port is customizable)
 - `npm install ws` in this project folder ([NodeJS](https://nodejs.org) required)
-- Run `node build/server.js`
+- Run `npm run start`
+- Debug `npm run debug`
 - Open showed "Local" link for yourself and send "Global" link to friends
 
 ### Setup (Docker)

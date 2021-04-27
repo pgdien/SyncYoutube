@@ -3399,15 +3399,15 @@ server_ConsoleInput.prototype = {
 			return;
 		}
 		switch(command) {
-		case "addAdmin":
-			var name = args[0];
-			var password = args[1];
-			if(this.main.badNickName(name)) {
-				haxe_Log.trace(StringTools.replace(Lang.get("usernameError"),"$MAX","" + this.main.config.maxLoginLength),{ fileName : "src/server/ConsoleInput.hx", lineNumber : 100, className : "server.ConsoleInput", methodName : "parseLine"});
-				return;
-			}
-			this.main.addAdmin(name,password);
-			break;
+		// case "addAdmin":
+		// 	var name = args[0];
+		// 	var password = args[1];
+		// 	if(this.main.badNickName(name)) {
+		// 		haxe_Log.trace(StringTools.replace(Lang.get("usernameError"),"$MAX","" + this.main.config.maxLoginLength),{ fileName : "src/server/ConsoleInput.hx", lineNumber : 100, className : "server.ConsoleInput", methodName : "parseLine"});
+		// 		return;
+		// 	}
+		// 	this.main.addAdmin(name,password);
+		// 	break;
 		case "exit":
 			this.main.exit();
 			break;
@@ -3424,15 +3424,15 @@ server_ConsoleInput.prototype = {
 				}
 			}
 			var _g1 = 0;
-			while(_g1 < _g.length) haxe_Log.trace(haxe_io_Path.withoutExtension(_g[_g1++]),{ fileName : "src/server/ConsoleInput.hx", lineNumber : 121, className : "server.ConsoleInput", methodName : "parseLine"});
+			// while(_g1 < _g.length) haxe_Log.trace(haxe_io_Path.withoutExtension(_g[_g1++]),{ fileName : "src/server/ConsoleInput.hx", lineNumber : 121, className : "server.ConsoleInput", methodName : "parseLine"});
 			break;
 		case "replay":
 			server_Utils.ensureDir(this.main.logsDir);
 			var path = haxe_io_Path.normalize("" + this.main.logsDir + "/" + args[0] + ".json");
-			if(!sys_FileSystem.exists(path)) {
-				haxe_Log.trace("File \"" + path + "\" not found",{ fileName : "src/server/ConsoleInput.hx", lineNumber : 110, className : "server.ConsoleInput", methodName : "parseLine"});
-				return;
-			}
+			// if(!sys_FileSystem.exists(path)) {
+			// 	haxe_Log.trace("File \"" + path + "\" not found",{ fileName : "src/server/ConsoleInput.hx", lineNumber : 110, className : "server.ConsoleInput", methodName : "parseLine"});
+			// 	return;
+			// }
 			var events = JSON.parse(js_node_Fs.readFileSync(path,{ encoding : "utf8"}));
 			this.main.replayLog(events);
 			break;
@@ -3921,8 +3921,8 @@ server_Main.prototype = {
 	}
 	,initIntergationHandlers: function() {
 		var _gthis = this;
-		if(process.env["_"] != null && process.env["_"].indexOf("heroku") != -1 && process.env["APP_URL"] != null) {
-			var url = process.env["APP_URL"];
+		if(process.env["_"] != null && process.env["_"].indexOf("heroku") != -1 && process.env["shop-share-app.herokuapp.com/"] != null) {
+			var url = process.env["shop-share-app.herokuapp.com/"];
 			if(!StringTools.startsWith(url,"http")) {
 				url = "http://" + url;
 			}
