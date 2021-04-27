@@ -1,0 +1,4 @@
+{
+	"message": "ENOENT: no such file or directory, open 'D:\\Project\\SyncTube\\SyncTube-master\\build/../res/langs/ru.json'",
+	"stack": "Error: ENOENT: no such file or directory, open 'D:\\Project\\SyncTube\\SyncTube-master\\build/../res/langs/ru.json'\n    at Object.openSync (fs.js:476:3)\n    at Object.readFileSync (fs.js:377:35)\n    at Function.Lang.request (D:\\Project\\SyncTube\\SyncTube-master\\build\\server.js:1998:22)\n    at Function.Lang.init (D:\\Project\\SyncTube\\SyncTube-master\\build\\server.js:2008:8)\n    at server_Main.runServer (D:\\Project\\SyncTube\\SyncTube-master\\build\\server.js:3782:8)\n    at D:\\Project\\SyncTube\\SyncTube-master\\build\\server.js:3763:11\n    at Server.<anonymous> (D:\\Project\\SyncTube\\SyncTube-master\\build\\server.js:4512:3)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)"
+}

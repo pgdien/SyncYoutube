@@ -1,0 +1,85 @@
+[
+	{
+		"clientName": "Guest 1",
+		"clientGroup": 4,
+		"event": {
+			"type": "Connected"
+		},
+		"time": 1619516832769
+	},
+	{
+		"clientName": "Guest 1",
+		"clientGroup": 4,
+		"event": {
+			"login": {
+				"clientName": "Ông nội real"
+			},
+			"type": "Login"
+		},
+		"time": 1619516832776
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619516832821
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "VideoLoaded"
+		},
+		"time": 1619516833458
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619516833697
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619516834697
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619516835698
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619516836698
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619516837697
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "Disconnected"
+		},
+		"time": 1619516837810
+	}
+]

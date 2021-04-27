@@ -1,0 +1,726 @@
+[
+	{
+		"clientName": "Guest 1",
+		"clientGroup": 4,
+		"event": {
+			"type": "Connected"
+		},
+		"time": 1619517993289
+	},
+	{
+		"clientName": "Guest 1",
+		"clientGroup": 4,
+		"event": {
+			"login": {
+				"clientName": "Ông nội real"
+			},
+			"type": "Login"
+		},
+		"time": 1619517993294
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619517993327
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619517993457
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619517994455
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619517995452
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619517996454
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619517997454
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619517998442
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619517999443
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "Disconnected"
+		},
+		"time": 1619518000407
+	},
+	{
+		"clientName": "Guest 1",
+		"clientGroup": 4,
+		"event": {
+			"type": "Connected"
+		},
+		"time": 1619518000496
+	},
+	{
+		"clientName": "Guest 1",
+		"clientGroup": 4,
+		"event": {
+			"login": {
+				"clientName": "Ông nội real"
+			},
+			"type": "Login"
+		},
+		"time": 1619518000504
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518000532
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518001482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518002482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518003482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518004481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518005482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518006482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518007481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518008482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518009482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518010481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518011482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 5,
+		"event": {
+			"setLeader": {
+				"clientName": "Ông nội real"
+			},
+			"type": "SetLeader"
+		},
+		"time": 1619518012209
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"setTime": {
+				"time": 769.5511790629425
+			},
+			"type": "SetTime"
+		},
+		"time": 1619518012211
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518012482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518013482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"pause": {
+				"time": 2669.124874464176
+			},
+			"type": "Pause"
+		},
+		"time": 1619518013531
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"setTime": {
+				"time": 2669.124874464176
+			},
+			"type": "SetTime"
+		},
+		"time": 1619518013640
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"play": {
+				"time": 2669.128025
+			},
+			"type": "Play"
+		},
+		"time": 1619518013823
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518014481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518015482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518016481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518017481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518018482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"message": {
+				"clientName": "Ông nội real",
+				"text": "aaaa"
+			},
+			"type": "Message"
+		},
+		"time": 1619518018686
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518019480
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518020482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518021482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518022481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518023482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518024481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518025483
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518026482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518027481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518028482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518029481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518030481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518031484
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518032481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"addVideo": {
+				"atEnd": true,
+				"item": {
+					"author": "Ông nội real",
+					"duration": 265,
+					"isIframe": false,
+					"isTemp": false,
+					"title": "Wowy, Dế Choắt -  Chim Sẻ Và Dâu Tây - Team Wowy | RAP VIỆT [MV Lyrics]",
+					"url": "https://www.youtube.com/watch?v=iOuZNB2G1mc"
+				}
+			},
+			"type": "AddVideo"
+		},
+		"time": 1619518033251
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518033481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518034482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518035482
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518036485
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518037489
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518038484
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518039496
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518040491
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518041490
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518042488
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518043486
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518044491
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518045485
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518046483
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518047494
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518048486
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518049487
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518050488
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518051487
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518052483
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518053481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518054493
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518055492
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518056481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518057488
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518058489
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518059485
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518060481
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518061491
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518062489
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518063488
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518064484
+	},
+	{
+		"clientName": "Ông nội real",
+		"clientGroup": 7,
+		"event": {
+			"type": "GetTime"
+		},
+		"time": 1619518065483
+	}
+]
