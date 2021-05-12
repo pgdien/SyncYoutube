@@ -4745,3 +4745,23 @@ server_HttpServer.matchLang = new EReg("^[A-z]+","");
 server_HttpServer.matchVarString = new EReg("\\${([A-z_]+)}","g");
 server_Main.main();
 })(typeof window != "undefined" ? window : typeof global != "undefined" ? global : typeof self != "undefined" ? self : this);
+
+
+// Constant URL value for JAAS API
+const RAPIDAPI_API_URL = 'https://shop-test2.herokuapp.com/';
+// Object with RapidAPI authorization headers and Content-Type header
+const RAPIDAPI_REQUEST_HEADERS = {
+	'X-RapidAPI-Host': 'shop-test2.herokuapp.com/'
+	, 'X-RapidAPI-Key': '696e4c79famshfe7906caec16cadp15bb60jsncca1fb583fdf'
+	, 'Content-Type': 'application/json'
+  };
+// Making a POST request using an axios instance from a connected library
+axios.post(RAPIDAPI_API_URL, { headers: RAPIDAPI_REQUEST_HEADERS })
+  // Handle a successful response from the server
+  .then(response => {
+          // Getting a data object from response that contains the necessary data from the server
+          const data = response.data;
+          console.log('data', data);
+  })
+  // Catch and print errors if any
+  .catch(error => console.error('Error', error));
