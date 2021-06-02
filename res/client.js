@@ -577,7 +577,7 @@ client_Buttons.init = function(main) {
 	client_Buttons.initPageFullscreen();
 	var getPlaylist = window.document.querySelector("#getplaylist");
 	getPlaylist.onclick = function(e) {
-		client_Utils.copyToClipboard(main.getPlaylistLinks().join(","));
+		document.getElementById("templist").setAttribute('value',main.getPlaylistLinks().join(","));
 		var icon = getPlaylist.firstElementChild;
 		icon.setAttribute("name","checkmark");
 		return haxe_Timer.delay(function() {
