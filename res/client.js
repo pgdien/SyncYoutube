@@ -591,9 +591,9 @@ client_Buttons.init = function(main) {
 		main.send({ type : "ClearPlaylist"});
 	};
 	window.document.querySelector("#shuffleplaylist").onclick = function(e) {
-		if(!window.confirm(Lang.get("shufflePlaylistConfirm"))) {
-			return;
-		}
+		// if(!window.confirm(Lang.get("shufflePlaylistConfirm"))) {
+		// 	return;
+		// }
 		main.send({ type : "ShufflePlaylist"});
 	};
 	window.document.querySelector("#lockplaylist").onclick = function(e) {
